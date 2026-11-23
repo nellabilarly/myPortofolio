@@ -13,15 +13,69 @@ type Artwork = {
 };
 
 const artworks = [
-  { src: "/1.png", alt: "Karya 1", title: " 01" },
-  { src: "/2.png", alt: "Karya 2", title: " 02" },
-  { src: "/3.png", alt: "Karya 3", title: "03" },
-  { src: "/4.png", alt: "Karya 4", title: " 04" },
-  { src: "/5.png", alt: "Karya 5", title: " 05" },
-  { src: "/7.png", alt: "Karya 7", title: " 06" },
-  { src: "/8.png", alt: "Karya 8", title: "07" },
-  { src: "/dg%20(1).png", alt: "Karya DG 1", title: "08" },
-  { src: "/dg.png", alt: "Karya DG", title: "09" },
+  {
+    src: "/1.png",
+    alt: "Desain poster produk Classic Chocolate Cookie",
+    title: "Classic Chocolate Cookie",
+    description:
+      "Desain poster produk yang menonjolkan cookie cokelat klasik dengan foto besar, tipografi tegas, dan palet cokelat hangat.",
+  },
+  {
+    src: "/2.png",
+    alt: "Desain poster Cookies Collection",
+    title: "Cookies Collection",
+    description:
+      "Kampanye visual produk cookie yang memadukan susunan varian rasa, potongan melimpah, dan gaya editorial berwarna cokelat.",
+  },
+  {
+    src: "/3.png",
+    alt: "Poster portofolio Four Nattawat sebagai Riser Artist",
+    title: "FOURTH — Riser Artist",
+    description:
+      "Desain portofolio artistik untuk Fourth Nattawat dengan komposisi hitam-putih, pose dinamis, serta tipografi bold bergaya editorial.",
+  },
+  {
+    src: "/4.png",
+    alt: "Poster profil Four Nattawat",
+    title: "All About FOURTH",
+    description:
+      "Poster profil bertema era digital yang menampilkan identitas, rekam jejak kreatif, dan citra visual Nattawat Jirochtikul secara ringkas.",
+  },
+  {
+    src: "/5.png",
+    alt: "Poster ALRIGHT milik Fourth",
+    title: "FOURTH — ALRIGHT",
+    description:
+      "Desain visual promosi lagu ALRIGHT yang menggabungkan nuansa foto, kontrol musik, dan susunan poster bertema monokrom kekinian.",
+  },
+  {
+    src: "/7.png",
+    alt: "Kolase karya dan album Fourth Nattawat",
+    title: "Fourth — Riser Energy",
+    description:
+      "Kolase editorial tentang perjalanan seni Fourth Nattawat, memadukan cover lagu, visual konser, pertunjukan panggung, dan energi musik.",
+  },
+  {
+    src: "/8.png",
+    alt: "Poster profil Iqbaal Ramadhan",
+    title: "Iqbaal Ramadhan — Baale",
+    description:
+      "Poster profil bergaya art fashion yang bermain dengan foto, kotak neon, efek pixel, dan tipografi tegas untuk menonjolkan karakter.",
+  },
+  {
+    src: "/dg%20(1).png",
+    alt: "Poster kreatif bertema Gemini dan Norawit",
+    title: "Gemini — Creative Portrait",
+    description:
+      "Desain fan art bertema Gemini yang memadukan torn paper, warna merah muda-biru, potret model, dan tipografi besar yang ekspresif.",
+  },
+  {
+    src: "/dg.png",
+    alt: "Poster promosi musik FOURTH di GMMTV",
+    title: "FOURTH — Born to Shine",
+    description:
+      "Poster promosi musisi dengan layout biru kekuningan, komposisi foto perspektif, dan slogan Born to Shine untuk kesan berani serta energik.",
+  },
   {
     src: "/cozy1%20(3).png",
     alt: "Halaman utama LOCAYY coworking space",
@@ -51,22 +105,30 @@ const artworks = [
   {
     src: "/10.png",
     alt: "Poster mengolah botol bekas",
-    title: "Creative Project 10",
+    title: "Eco Bottle — Waste Management",
+    description:
+      "Poster edukasi lingkungan yang mengajak mengolah botol bekas menjadi daur ulang untuk masa depan yang lebih berkelanjutan.",
   },
   {
     src: "/11.png",
     alt: "Infografis era digital hidup sehat optimal",
-    title: "Creative Project 11",
+    title: "Digital Wellbeing Infographic",
+    description:
+      "Infografis bertema era digital yang mengajarkan waktu istirahat, kebiasaan online aman, penggunaan informasi positif, dan gaya hidup sehat.",
   },
   {
     src: "/12.png",
     alt: "Poster acara Canva Creative",
-    title: "Creative Project 12",
+    title: "Canva Creative 2025",
+    description:
+      "Desain poster acara Canva Creative untuk SMPN 9 Malang dengan visual pesta bintang, karakter pemandu, dan rangkaian kegiatan kreatif.",
   },
   {
     src: "/13.png",
     alt: "Materi kreativitas Canva",
-    title: "Creative Project 13",
+    title: "Canva Creative Workshop",
+    description:
+      "Materi presentasi Canva yang menjelaskan konsep desain, rundown singkat, tujuan kegiatan, dan enam langkah dasar meningkatkan kreativitas.",
   },
 ] satisfies Artwork[];
 

@@ -43,7 +43,7 @@ export default function Home() {
         >
           <div className="mx-auto grid w-full max-w-7xl items-center gap-12 md:grid-cols-[1.2fr_0.8fr] md:gap-20">
             <div>
-              <h1 className="text-[clamp(3.5rem,10vw,7rem)] font-black uppercase leading-[0.82] tracking-[-0.075em]">
+              <h1 className="text-center text-[clamp(3.5rem,10vw,7rem)] font-black uppercase leading-[0.82] tracking-[-0.075em] md:text-left">
                 Portfolio
               </h1>
 
