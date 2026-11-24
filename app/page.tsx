@@ -112,7 +112,6 @@ export default function Home() {
                 collaborations, and visual stories.
               </p>
 
-              
               <div className="mt-7 flex justify-center md:justify-start">
                 <a
                   href="https://wa.me/6282245504506"
@@ -122,12 +121,11 @@ export default function Home() {
                 >
                   <span className="absolute -left-1 -top-1 h-2 w-2 rounded-full bg-[#493A32]" />
                   Let's Connect
-                     <span className="absolute -bottom-1 -right-1 h-2 w-2 rounded-full bg-[#493A32]" />
+                  <span className="absolute -bottom-1 -right-1 h-2 w-2 rounded-full bg-[#493A32]" />
                 </a>
               </div>
 
               <div className="mt-8 flex justify-center gap-9 text-[#493A32] md:justify-start">
-            
                 <a
                   href="https://www.instagram.com/sheneiiy/"
                   aria-label="Instagram"
@@ -234,7 +232,6 @@ export default function Home() {
               {/* BERADAPTASI */}
               <div className="absolute left-0 top-8 z-30 -rotate-6 md:left-[-18px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#DF7861] px-3 py-2 shadow-[4px_4px_0_#493A32]">
-                  <span className="text-lg font-black text-[#FCF8E8]">✳</span>
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
                     Beradaptasi
                   </span>
@@ -244,7 +241,6 @@ export default function Home() {
               {/* COLLABORATION */}
               <div className="absolute right-0 top-14 z-30 rotate-6 md:right-[-22px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#ECB390] px-3 py-2 shadow-[4px_4px_0_#493A32]">
-                  <span className="text-lg font-black text-[#493A32]">✦</span>
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
                     Collaboration
                   </span>
@@ -254,7 +250,6 @@ export default function Home() {
               {/* EXTROVERT */}
               <div className="absolute bottom-20 left-0 z-30 -rotate-3 md:left-[-22px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#D4E2D4] px-3 py-2 shadow-[4px_4px_0_#493A32]">
-                  <span className="text-lg font-black text-[#493A32]">✳</span>
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
                     Extrovert
                   </span>
@@ -264,7 +259,6 @@ export default function Home() {
               {/* PERSEVERANCE */}
               <div className="absolute bottom-24 right-0 z-30 rotate-3 md:right-[-20px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#FCF8E8] px-3 py-2 shadow-[4px_4px_0_#493A32]">
-                  <span className="text-lg font-black text-[#DF7861]">✦</span>
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
                     Perseverance
                   </span>
