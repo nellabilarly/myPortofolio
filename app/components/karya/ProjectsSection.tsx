@@ -163,7 +163,6 @@ const portfolioCategories: PortfolioCategory[] = [
     items: [
       { src: "/sertifikat/LombaPoster.jpeg", title: "Lomba Poster", type: "image" },
       { src: "/sertifikat/Ai.png", title: "Artificial Intelligence", type: "image" },
-      { src: "/sertifikat/OlipiadeBiologi.png", title: "Olimpiade Biologi", type: "image" },
       { src: "/sertifikat/nodejs.png", title: "Node.js Intermediate", type: "image" },
       { src: "/sertifikat/problem.png", title: "Problem Solving Basic", type: "image" },
     ],
@@ -174,7 +173,6 @@ const portfolioCategories: PortfolioCategory[] = [
       "Mengelola pencatatan arus kas, anggaran, dan pelaporan keuangan organisasi secara transparan untuk mendukung program kerja.",
     color: "#ECB390",
     items: [
-      { src: "/bdi/Screenshot%202026-11-24%20091450.png", title: "Financial Administration 01", type: "image" },
       { src: "/bdi/Screenshot%202026-11-24%20091547.png", title: "Financial Administration 02", type: "image" },
       { src: "/bdi/Screenshot%202026-11-24%20091625.png", title: "Financial Administration 03", type: "image" },
       { src: "/bdi/WhatsApp%20Image%202026-11-24%20at%2009.09.35.jpeg", title: "BDI Activity", type: "image" },
@@ -472,7 +470,6 @@ export default function ProjectsSection() {
           </div>
         </div>
 
-        {/* EXPERIENCE & CERTIFICATES */}
         <div className="mt-12 border-t border-[#D4E2D4] pt-12 md:mt-16 md:pt-16">
           <div className="mb-9">
             <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#DF7861]">
@@ -524,7 +521,6 @@ export default function ProjectsSection() {
         </div>
       </div>
 
-      {/* ARTWORK MODAL */}
       {selectedArtwork && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-[#493A32]/80 p-3 backdrop-blur-sm sm:p-6"
@@ -546,7 +542,6 @@ export default function ProjectsSection() {
               Close <X size={15} />
             </button>
 
-            {/* PROJECT GALLERY */}
             {selectedArtwork.gallery ? (
               <div className="pt-10">
                 <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.2em] text-[#DF7861]">
@@ -627,7 +622,6 @@ export default function ProjectsSection() {
         </div>
       )}
 
-      {/* CATEGORY MODAL */}
       {selectedCategory && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center bg-[#493A32]/80 p-3 backdrop-blur-sm sm:p-6"
@@ -649,7 +643,6 @@ export default function ProjectsSection() {
               Close <X size={15} />
             </button>
 
-            {/* CATEGORY HEADING */}
             <div className="mb-7 pr-16 pt-10 md:pt-3">
               <span
                 className="inline-block px-3 py-2 text-[10px] font-black uppercase tracking-widest text-[#493A32]"
@@ -670,7 +663,7 @@ export default function ProjectsSection() {
               </p>
             </div>
 
-            {/* CATEGORY ITEMS */}
+           
             <div className="grid gap-5 sm:grid-cols-2">
               {selectedCategory.items.map((item, index) =>
                 item.type === "pdf" ? (

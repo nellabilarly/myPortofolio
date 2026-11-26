@@ -31,13 +31,12 @@ export default function Home() {
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
     { label: "Projects", href: "#karya" },
-    { label: "Contact", href: "#contact" },
   ];
 
   return (
     <main className="min-h-screen w-full bg-[#FCF8E8] font-sans text-[#493A32]">
       <div className="min-h-screen w-full overflow-hidden">
-        {/* NAVBAR */}
+       
         <header
           className={`fixed inset-x-0 top-0 z-50 w-full border-b transition-all duration-300 ${
             hasScrolled || isMenuOpen
@@ -91,13 +90,12 @@ export default function Home() {
           </nav>
         </header>
 
-        {/* HERO */}
         <section
           id="home"
           className="flex min-h-screen scroll-mt-20 items-center px-6 pb-16 pt-28 md:px-12 md:pb-20"
         >
           <div className="mx-auto grid w-full max-w-7xl items-center gap-12 md:grid-cols-[1.2fr_0.8fr] md:gap-20">
-            {/* LEFT CONTENT */}
+
             <div>
               <p className="mb-5 text-center text-xs font-bold uppercase tracking-[0.35em] text-[#DF7861] md:text-left">
                 Creative Portfolio
@@ -227,9 +225,6 @@ export default function Home() {
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#493A32]/35 to-transparent" />
               </div>
 
-              {/* FLOATING EDITORIAL LABELS */}
-
-              {/* BERADAPTASI */}
               <div className="absolute left-0 top-8 z-30 -rotate-6 md:left-[-18px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#DF7861] px-3 py-2 shadow-[4px_4px_0_#493A32]">
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
@@ -238,7 +233,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* COLLABORATION */}
               <div className="absolute right-0 top-14 z-30 rotate-6 md:right-[-22px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#ECB390] px-3 py-2 shadow-[4px_4px_0_#493A32]">
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
@@ -246,8 +240,6 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-
-              {/* EXTROVERT */}
               <div className="absolute bottom-20 left-0 z-30 -rotate-3 md:left-[-22px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#D4E2D4] px-3 py-2 shadow-[4px_4px_0_#493A32]">
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
@@ -256,7 +248,6 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* PERSEVERANCE */}
               <div className="absolute bottom-24 right-0 z-30 rotate-3 md:right-[-20px]">
                 <div className="flex items-center gap-2 border-2 border-[#493A32] bg-[#FCF8E8] px-3 py-2 shadow-[4px_4px_0_#493A32]">
                   <span className="text-[9px] font-black uppercase tracking-[0.12em] text-[#493A32]">
@@ -264,8 +255,6 @@ export default function Home() {
                   </span>
                 </div>
               </div>
-
-              {/* NAME LABEL */}
               <div className="absolute bottom-3 z-30 border-2 border-[#493A32] bg-[#D4E2D4] px-5 py-2 text-center shadow-[4px_4px_0_#493A32]">
                 <p className="text-sm font-black uppercase tracking-[0.08em]">
                   Nella Salsabila
@@ -275,13 +264,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ABOUT ME */}
         <section
           id="about"
           className="scroll-mt-20 bg-[#D4E2D4] px-6 py-20 md:px-12 md:py-28"
         >
           <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[0.8fr_1.2fr] md:gap-20">
-            {/* ABOUT IMAGE */}
+          
             <div className="relative mx-auto h-64 w-64 md:h-80 md:w-80">
               <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-full bg-[#ECB390]" />
               <div className="relative h-full w-full overflow-hidden rounded-full border-2 border-[#493A32] bg-[#FCF8E8]">
@@ -295,8 +283,6 @@ export default function Home() {
                 />
               </div>
             </div>
-
-            {/* ABOUT CONTENT */}
             <div>
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-[#DF7861]">
                 About me
@@ -339,10 +325,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* PROJECTS */}
         <ProjectsSection />
 
-        {/* CONTACT */}
         <section
           id="contact"
           className="scroll-mt-20 bg-[#DF7861] px-6 py-20 text-center text-[#FCF8E8] md:px-12"
@@ -356,8 +340,7 @@ export default function Home() {
           </h2>
         </section>
 
-        {/* FOOTER */}
-        <footer className="flex flex-col items-center justify-between gap-3 bg-[#D4E2D4] px-6 py-7 text-xs font-semibold uppercase tracking-wide text-[#493A32] md:flex-row md:px-12">
+        <footer className="flex flex-col items-center justify-center gap-3 bg-[#D4E2D4] px-6 py-7 text-xs font-semibold uppercase tracking-wide text-[#493A32] md:flex-row md:px-12">
           <p>© 2026 Nella. All rights reserved.</p>
         </footer>
       </div>

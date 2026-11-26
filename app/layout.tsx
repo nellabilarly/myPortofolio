@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -8,8 +9,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nella | Portofolio",
-  description: "Kumpulan karya, eksplorasi, dan ide kreatif saya.",
+  title: "Nella | Personal Portfolio",
+  description:
+    "Portofolio Nella yang berisi karya, pengalaman, dan eksplorasi kreatif.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
