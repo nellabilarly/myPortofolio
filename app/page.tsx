@@ -341,7 +341,7 @@ export default function Home() {
         </section>
 
         <footer className="flex flex-col items-center justify-center gap-3 bg-[#D4E2D4] px-6 py-7 text-xs font-semibold uppercase tracking-wide text-[#493A32] md:flex-row md:px-12">
-          <p>© 2026 Nella. All rights reserved.</p>
+          <p>© 2026 Nella Salsabila.</p>
         </footer>
       </div>
     </main>
